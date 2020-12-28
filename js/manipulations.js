@@ -116,7 +116,7 @@ function FindMissedElements(array) {
 
 //Делает срез
 function Slice(array, start = 3, end = 5, printResult = true) {
-    let sliced = array.slice(3, 5);
+    let sliced = array.slice(start, end);
 
     if (printResult) {
         console.log("\nSlice:");
